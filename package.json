@@ -1,0 +1,16 @@
+{
+  "name": "@microverse-network/tcp-socket-proxy",
+  "version": "0.0.0",
+  "bin": {
+    "microverse-tcp-socket-proxy": "bin/tcp-socket-proxy.js",
+    "microverse-tcp-socket-proxy-connect": "bin/tcp-socket-proxy-connect.js"
+  },
+  "dependencies": {
+    "@microverse-network/module": "0.0.0",
+    "@microverse-network/node": "0.0.0",
+    "@microverse-network/tracker-plugin": "0.0.0",
+    "@microverse-network/webrtcnegotiator-plugin": "0.0.0",
+    "shortid": "^2.2.14",
+    "yargs": "^12.0.5"
+  }
+}
