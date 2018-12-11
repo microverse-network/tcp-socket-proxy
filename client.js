@@ -1,13 +1,12 @@
 const net = require('net')
-
 const shortid = require('shortid')
-
 const Module = require('@microverse-network/module')
 
+require('./common')
 const makeArrayTransformer = require('./arraytransformer')
 const makeBufferTransformer = require('./buffertransformer')
 
-module.exports = class TCPSocketProxyConnect extends Module {
+module.exports = class TCPSocketProxyClient extends Module {
   static get _name() {
     return 'tcp-socket-proxy'
   }

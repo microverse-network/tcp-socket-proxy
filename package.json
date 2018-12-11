@@ -2,8 +2,8 @@
   "name": "@microverse-network/tcp-socket-proxy",
   "version": "0.0.0",
   "bin": {
-    "microverse-tcp-socket-proxy": "bin/tcp-socket-proxy.js",
-    "microverse-tcp-socket-proxy-connect": "bin/tcp-socket-proxy-connect.js"
+    "microverse-tcp-socket-proxy-client": "bin/tcp-socket-proxy-client.js",
+    "microverse-tcp-socket-proxy-server": "bin/tcp-socket-proxy-server.js"
   },
   "dependencies": {
     "@microverse-network/module": "0.0.0",
